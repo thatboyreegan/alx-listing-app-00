@@ -1,4 +1,4 @@
-import { PropertyProps } from "@/interfaces";
+import { PropertyCategoriesProps, PropertyProps } from "@/interfaces";
 
 
 export const Hero = '/assets/hero.svg';
@@ -366,4 +366,92 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       discount: ""
     }
   ];
-  
+
+
+export const PropertyCategories: PropertyCategoriesProps[] = [
+    {
+        id: 1,
+        imageUrl: '/assets/amazingSwimmingPool.svg',
+        title: 'Amazing Pool'
+    },
+    {
+        id: 2,
+        imageUrl: '/assets/apartments.svg',
+        title: 'Apartments'
+    },
+    {
+        id: 3,
+        imageUrl: '/assets/beachHouse.svg',
+        title: 'Beach house'
+    },
+    {
+        id: 4,
+        imageUrl: '/assets/cabin.svg',
+        title: 'Cabin'
+    },
+    {
+        id: 5,
+        imageUrl: '/assets/camping.svg',
+        title: 'Camping'
+    },
+    {
+        id: 6,
+        imageUrl: '/assets/castle-tower.svg',
+        title: 'Castle'
+    },
+    {
+        id: 7,
+        imageUrl: '/assets/countrySide.svg',
+        title: 'Country side'
+    },
+    {
+        id: 8,
+        imageUrl: '/assets/farmHouse.svg',
+        title: 'Farm house'
+    },
+    {
+        id: 9,
+        imageUrl: '/assets/house.svg',
+        title: 'House'
+    },
+    {
+        id: 10,
+        imageUrl: '/assets/island.svg',
+        title: 'Island'
+    },
+    {
+        id: 11,
+        imageUrl: '/assets/lakefront.svg',
+        title: 'Lakefront'
+    },
+    {
+        id: 12,
+        imageUrl: '/assets/mansion.svg',
+        title: 'Mansion'
+    },
+    {
+        id: 13,
+        imageUrl: '/assets/new.svg',
+        title: 'New'
+    },
+    {
+        id: 14,
+        imageUrl: '/assets/treehouse.svg',
+        title: 'Tree house'
+    },
+    {
+        id: 15,
+        imageUrl: '/assets/tropical.svg',
+        title: 'Tropical'
+    },
+    {
+        id: 16,
+        imageUrl: '/assets/villa.svg',
+        title: 'Villa'
+    },
+    {
+        id: 17,
+        imageUrl: '/assets/rooms.svg',
+        title: 'Rooms'
+    }
+]

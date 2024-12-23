@@ -20,3 +20,9 @@ export interface PropertyProps {
   image: string;
   discount: string;
 }
+
+export interface PropertyCategoriesProps {
+    id: number;
+    imageUrl: string;
+    title: string;
+}
